@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.loginsaucedemo">
+      <class name="testcases.cartfeatures">
         <methods>
-          <include name="login" invocation-numbers="0"/>
+          <include name="loginpage"/>
+          <include name="AppLanuch"/>
+          <include name="additem"/>
         </methods>
-      </class> <!-- testcases.loginsaucedemo -->
+      </class> <!-- testcases.cartfeatures -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
